@@ -11,6 +11,12 @@
 		BCFA891D26C3F72B000D2C48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFA891C26C3F72B000D2C48 /* ContentView.swift */; };
 		BCFA891F26C3F730000D2C48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCFA891E26C3F730000D2C48 /* Assets.xcassets */; };
 		BCFA892226C3F730000D2C48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCFA892126C3F730000D2C48 /* Preview Assets.xcassets */; };
+		BCFA892E26C3F91F000D2C48 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFA892D26C3F91F000D2C48 /* DataManager.swift */; };
+		BCFA893026C3F937000D2C48 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFA892F26C3F937000D2C48 /* Person.swift */; };
+		BCFA893226C3FD37000D2C48 /* PhoneContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFA893126C3FD37000D2C48 /* PhoneContacts.swift */; };
+		BCFA893426C3FDB1000D2C48 /* DetailContactsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFA893326C3FDB1000D2C48 /* DetailContactsList.swift */; };
+		BCFA893626C3FEC5000D2C48 /* ContactsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFA893526C3FEC5000D2C48 /* ContactsRow.swift */; };
+		BCFA893826C40BF6000D2C48 /* ContactsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFA893726C40BF6000D2C48 /* ContactsList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		BCFA891E26C3F730000D2C48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCFA892126C3F730000D2C48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BCFA892326C3F730000D2C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCFA892D26C3F91F000D2C48 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		BCFA892F26C3F937000D2C48 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		BCFA893126C3FD37000D2C48 /* PhoneContacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneContacts.swift; sourceTree = "<group>"; };
+		BCFA893326C3FDB1000D2C48 /* DetailContactsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailContactsList.swift; sourceTree = "<group>"; };
+		BCFA893526C3FEC5000D2C48 /* ContactsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsRow.swift; sourceTree = "<group>"; };
+		BCFA893726C40BF6000D2C48 /* ContactsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +64,14 @@
 		BCFA891926C3F72B000D2C48 /* PersonListSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				BCFA892D26C3F91F000D2C48 /* DataManager.swift */,
+				BCFA892F26C3F937000D2C48 /* Person.swift */,
 				BCFA891A26C3F72B000D2C48 /* PersonListSwiftUIApp.swift */,
+				BCFA893126C3FD37000D2C48 /* PhoneContacts.swift */,
+				BCFA893526C3FEC5000D2C48 /* ContactsRow.swift */,
+				BCFA893726C40BF6000D2C48 /* ContactsList.swift */,
 				BCFA891C26C3F72B000D2C48 /* ContentView.swift */,
+				BCFA893326C3FDB1000D2C48 /* DetailContactsList.swift */,
 				BCFA891E26C3F730000D2C48 /* Assets.xcassets */,
 				BCFA892326C3F730000D2C48 /* Info.plist */,
 				BCFA892026C3F730000D2C48 /* Preview Content */,
@@ -138,8 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCFA893826C40BF6000D2C48 /* ContactsList.swift in Sources */,
+				BCFA893426C3FDB1000D2C48 /* DetailContactsList.swift in Sources */,
+				BCFA893026C3F937000D2C48 /* Person.swift in Sources */,
 				BCFA891D26C3F72B000D2C48 /* ContentView.swift in Sources */,
+				BCFA893626C3FEC5000D2C48 /* ContactsRow.swift in Sources */,
+				BCFA892E26C3F91F000D2C48 /* DataManager.swift in Sources */,
 				BCFA891B26C3F72B000D2C48 /* PersonListSwiftUIApp.swift in Sources */,
+				BCFA893226C3FD37000D2C48 /* PhoneContacts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
