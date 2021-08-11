@@ -15,9 +15,10 @@ struct PhoneContacts: View {
         NavigationView {
             List {
                 ForEach(persons) { person in
-                    Section(header: Text(person.fullname)) {
-                        ContactsRow(image: "", contact: person.phoneNumber)
-                        ContactsRow(image: "", contact: person.email)
+                    Section(header: Text(person.fullname)
+                                .foregroundColor(.orange)) {
+                        ContactsRow(image: "phone", contact: person.phoneNumber)
+                        ContactsRow(image: "envelope.open", contact: person.email)
                     }
                 }
             }
